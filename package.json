@@ -1,7 +1,7 @@
 {
   "name": "arraybuffer.slice",
   "description": "Exports a function for slicing ArrayBuffers (no polyfilling)",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "homepage": "https://github.com/rase-/arraybuffer.slice",
   "dependencies": {},
   "devDependencies": {
