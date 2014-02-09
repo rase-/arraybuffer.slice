@@ -2,7 +2,7 @@
  * Test dependencies
  */
 
-var sliceBuffer = require('../lib/index.js');
+var sliceBuffer = require('../index.js');
 var expect = require('expect.js');
 
 /**
