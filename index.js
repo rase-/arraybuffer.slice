@@ -21,7 +21,7 @@ module.exports = function(arraybuffer, start, end) {
   }
 
   var abv = new Uint8Array(arraybuffer);
-  var result = Uint8Array(end - start);
+  var result = new Uint8Array(end - start);
   for (var i = start, ii = 0; i < end; i++, ii++) {
     result[ii] = abv[i];
   }
