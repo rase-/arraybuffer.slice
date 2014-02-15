@@ -2,7 +2,7 @@
  * An abstraction for slicing an arraybuffer even when
  * ArrayBuffer.prototype.slice is not supported
  *
- * @api private
+ * @api public
  */
 
 module.exports = function(arraybuffer, start, end) {
