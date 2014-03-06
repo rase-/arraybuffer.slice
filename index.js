@@ -12,11 +12,11 @@ module.exports = function(arraybuffer, start, end) {
 
   if (arraybuffer.slice) { return arraybuffer.slice(start, end); }
 
-  if (start < 0) { start += bytes; }
+  if (start < 0) { start += bytes; }
   if (end < 0) { end += bytes; }
   if (end > bytes) { end = bytes; }
 
-  if (start >= bytes || start >= end || bytes == 0) { 
+  if (start >= bytes || start >= end || bytes === 0) {
     return new ArrayBuffer(0);
   }
 
