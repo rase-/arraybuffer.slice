@@ -2,6 +2,7 @@
   "name": "arraybuffer.slice",
   "description": "Exports a function for slicing ArrayBuffers (no polyfilling)",
   "version": "0.0.6",
+  "license": "MIT",
   "homepage": "https://github.com/rase-/arraybuffer.slice",
   "dependencies": {},
   "devDependencies": {
